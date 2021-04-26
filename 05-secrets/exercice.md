@@ -1,9 +1,5 @@
 ## Se protéger avec les secrets 
 
-### Nettoyer l'environnement précédent
-
-`kubectl delete daemonsets,replicasets,services,deployments,pods,rc --all`
-
 ### Creer son premier secret
 
 Nous allons écrire notre secret dans un fichier texte.
