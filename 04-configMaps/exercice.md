@@ -1,11 +1,3 @@
-## Bien configurer ses livrables
-
-### Nettoyer l'environnement précédent
-
-`kubectl delete daemonsets,replicasets,services,deployments,pods,rc --all`
-
-### Se placer dans un répertoire
-
 ```
 mkdir config-demo
 cd config-demo
