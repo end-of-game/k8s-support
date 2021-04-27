@@ -205,6 +205,12 @@ Le fichier kubeconfig est : "treeptik-student-config" pour l'utiliser:
 export KUBECONFIG=<chemin du fichier>/treeptik-student-config
 ```
 
+## Export the file
+
+```
+kubectl config view --minify --flatten > nmu.yaml
+````
+
 ## AKS
 
 Dans le cas de AKS, il faut aller chercher la valeur de l'adresse dans le fichier `~/.kube/config`
