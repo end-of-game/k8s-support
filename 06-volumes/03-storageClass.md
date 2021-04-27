@@ -95,7 +95,7 @@ kubectl get deploy
 
 ```
 kubectl exec -it <pod> -- bash
-mount | grep html
+mount | grep data
 ```
 
 Observe the mount point and the size of the pvc
