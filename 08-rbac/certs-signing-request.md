@@ -1,9 +1,5 @@
 ## CertificateSigningRequest
 
-### Nettoyer l'environnement précédent
-
-`kubectl delete daemonsets,replicasets,services,deployments,pods,rc --all`
-
 ### Générer une clé et une demande de certificat
 
 Deux possibilités :
