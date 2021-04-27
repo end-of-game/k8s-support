@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+   name: my-pvc00-$TRIGRAMME 
+spec:
+   accessModes:
+      - ReadWriteOnce
+   resources:
+      requests:
+        storage: 500Mi
+

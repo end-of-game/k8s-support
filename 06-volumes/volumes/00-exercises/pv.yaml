@@ -1,0 +1,13 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+   name: my-pv00-nmu 
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /pv-data-nmu
+    type: DirectoryOrCreate
+
