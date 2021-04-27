@@ -94,7 +94,7 @@ kubectl get deploy
 ```
 
 ```
-kubectl exec -it nginx -- bash
+kubectl exec -it <pod> -- bash
 mount | grep html
 ```
 
