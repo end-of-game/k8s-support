@@ -90,7 +90,7 @@ Apply the YAML file
 ```
 TRIGRAMME=nmu envsubst < dep.yaml.tmpl > dep.yaml
 kubectl apply -f dep.yaml
-kubectl get dep
+kubectl get deploy
 ```
 
 ```
