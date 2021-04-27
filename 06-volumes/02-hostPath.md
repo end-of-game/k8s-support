@@ -63,7 +63,7 @@ kubectl apply -f pvc.yaml
 kubectl get pvc
 ```
 
-Corriger l'erreur.
+Corriger les deux erreurs
 Comment la trouver ?
 
 ### Créer un second Persistent Volume Claim
