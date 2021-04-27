@@ -65,7 +65,7 @@ cat treeptik.student.csr | base64 | tr -d '\n'
 
 Créer la ressource :
 ```
-kubectl create -f certsingnrequest.yaml
+kubectl apply -f certsingnrequest.yaml
 ```
 
 ### Valider le certificat
@@ -77,7 +77,7 @@ kubectl certificate approve user-request-treeptik-student
 ### Créer un namespace
 
 ```
-kubectl create namespace treeptik-namespace
+kubectl apply namespace treeptik-namespace
 ```
 
 ### Créer un role
@@ -97,7 +97,7 @@ rules:
 
 Créer la ressource :
 ```
-kubectl create -f role.yaml
+kubectl apply -f role.yaml
 ```
 
 ### Créer un rolebinding
